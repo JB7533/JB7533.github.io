@@ -1,0 +1,55 @@
+body {
+    background-image: url(Image/CoffeeTalk-11624-1536x774.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+} 
+h1 {
+   text-align: center;
+}
+
+a {
+    color: rgb(243, 243, 243) ;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 100px;
+}
+a:hover {
+    color: rgb(223, 199, 13);
+}
+a:link {
+    text-decoration: none;
+}
+a:active{
+    text-decoration: underline;
+}
+
+section  {
+    color: rgb(243, 243, 243);
+    font-size: 45px;
+    font-family: fantasy;
+    
+}
+p:hover{
+    color: rgb(189, 26, 26);
+}
+.content{
+max-width: 700px;
+margin: auto;
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
