@@ -1,55 +1,85 @@
+*{ box-sizing: border-box;}
 body {
-    background-image: url(Image/CoffeeTalk-11624-1536x774.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-} 
+    background-color: #252026;
+}
 h1 {
-   text-align: center;
+    font-size: 70px;
+    color: whitesmoke;
+    text-align: center;
 }
 
-a {
-    color: rgb(243, 243, 243) ;
-    font-size: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 100px;
+table {
+    font-size: 30px;
 }
-a:hover {
-    color: rgb(223, 199, 13);
+.span {
+    position: absolute;
+    color: whitesmoke;
+    top: 31%;
+    right: 42%;
+    padding: auto;   
 }
-a:link {
-    text-decoration: none;
-}
-a:active{
-    text-decoration: underline;
-}
-
-section  {
-    color: rgb(243, 243, 243);
-    font-size: 45px;
-    font-family: fantasy;
-    
-}
-p:hover{
-    color: rgb(189, 26, 26);
-}
-.content{
-max-width: 700px;
-margin: auto;
-height: 50vh;
-display: flex;
-align-items: center;
-justify-content: center;
+label
+{
+    color: whitesmoke;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    font-size: 11px;
-    padding: 5px;
+    font-size: 60%;
     text-align: center;
-    text-transform: uppercase;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    padding: 5px;
+    color: whitesmoke; 
+    position: absolute; 
+    right: 0%;
+    left: 0%; 
+    bottom: 0%;
 }
+
+nav {
+    background-color: #252026;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 2em;
+    position: relative;
+    font-size: large;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+nav ul ul {
+    position: absolute;
+    background-color: #252026;
+    padding: 0;
+    text-align: left;
+    display: none;
+    font-size: large;
+ }
+ nav ul li a {
+    color: whitesmoke;
+
+ }
+ header {
+    /* background-image: url(Images/Logo.png); */
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-bottom: 1em;
+    min-height: 120px;
+    height: auto;
+}
+ nav ul ul li {
+    background-color: #252026;
+    display: block;
+    width: 8em;
+    padding-left: 1em;
+    margin-left: 0;
+ }
+ 
+ nav li:hover ul {display: block;}
+nav li { padding: 0.5em;
+   display: inline-block;
+
+nav a:link { color:#252026; }
+nav a:visited { color: blue; }
+ a:hover {  color: red;}
+
+   }
